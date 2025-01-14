@@ -1,8 +1,8 @@
 //Selection et Création//
 let body = document.querySelector ("body")
+// Image via DOM //
 const image = document.createElement('img')
 image.src = './public/img/gutz.jpeg'
-
 body.appendChild(image)
 
 let  monPremierH = document.createElement ("h1")
@@ -27,12 +27,12 @@ body.appendChild(monPremierH)
 monPremierH.appendChild(textePremierH)
 
 
-//style//
-monPremierH.style.textAlign = "center"
-monPremierH.style.color = "red"
-boutonPlus.style.textAlign= "center"
-boutonMoins.style.textAlign= "center"
-boutonRelance.style.textAlign= "center"
+//Ancien style //
+// monPremierH.style.textAlign = "center"
+// monPremierH.style.color = "red"
+// boutonPlus.style.textAlign= "center"
+// boutonMoins.style.textAlign= "center"
+// boutonRelance.style.textAlign= "center"
 
 //compteur affichage //
 let compteur = document.createElement("h2")
@@ -44,7 +44,7 @@ body.appendChild(compteur)
 
 
 
-// événements //
+// événements +=- //
 let valeurCompteur = 0;
 
 boutonPlus.addEventListener("click", () => {

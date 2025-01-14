@@ -19,11 +19,7 @@ h1 {
     letter-spacing: 0.1em;
 }
 
-#counter {
-    font-size: 5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
+
 
 .buttons {
     display: flex;
@@ -42,16 +38,9 @@ button {
 }
 
 button:hover {
-    background-color: #a00000;
+    background-color: #000000;
 }
 
-#reset {
-    background-color: #333;
-}
-
-#reset:hover {
-    background-color: #444;
-}
 
 img{
     width:500px;
