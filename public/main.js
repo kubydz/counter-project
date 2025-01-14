@@ -1,0 +1,5 @@
+let body = document.querySelector ("body")
+let  monPremierH = document.createElement ("h1")
+let textePremierH = document.createTextNode ("Counter Pick")
+body.appendChild(monPremierH)
+monPremierH.appendChild(textePremierH)
