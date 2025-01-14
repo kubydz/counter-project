@@ -1,5 +1,9 @@
 //Selection et Création//
 let body = document.querySelector ("body")
+const image = document.createElement('img')
+image.src = './public/img/gutz.jpeg'
+
+body.appendChild(image)
 
 let  monPremierH = document.createElement ("h1")
 let textePremierH = document.createTextNode ("Counter Gutz")
